@@ -1,0 +1,895 @@
+<?xml version="1.0"?>
+<xmeml version="4">
+	<sequence id="sequence-1" TL.SQAudioVisibleBase="0" TL.SQVideoVisibleBase="0" TL.SQVisibleBaseTime="0" TL.SQAVDividerPosition="0.5" TL.SQHideShyTracks="0" TL.SQHeaderWidth="184" Monitor.ProgramZoomOut="0" Monitor.ProgramZoomIn="0" TL.SQTimePerPixel="0.73210623869801095" MZ.EditLine="36072439603200" MZ.Sequence.PreviewFrameSizeHeight="1080" MZ.Sequence.PreviewFrameSizeWidth="1920" MZ.Sequence.AudioTimeDisplayFormat="200" MZ.Sequence.PreviewRenderingClassID="1297106761" MZ.Sequence.PreviewRenderingPresetCodec="1297107278" MZ.Sequence.PreviewRenderingPresetPath="EncoderPresets/SequencePreview/795454d9-d3c2-429d-9474-923ab13b7018/I-Frame Only MPEG.epr" MZ.Sequence.PreviewUseMaxRenderQuality="false" MZ.Sequence.PreviewUseMaxBitDepth="false" MZ.Sequence.EditingModeGUID="795454d9-d3c2-429d-9474-923ab13b7018" MZ.Sequence.VideoTimeDisplayFormat="102" MZ.WorkOutPoint="0" MZ.WorkInPoint="0" explodedTracks="true">
+		<uuid>e6d240fb-cb71-423a-89ab-9d68fd806b2e</uuid>
+		<duration>0</duration>
+		<rate>
+			<timebase>30</timebase>
+			<ntsc>TRUE</ntsc>
+		</rate>
+		<name>Sample Sequence with Markers</name>
+		<media>
+			<video>
+				<format>
+					<samplecharacteristics>
+						<rate>
+							<timebase>30</timebase>
+							<ntsc>TRUE</ntsc>
+						</rate>
+						<codec>
+							<name>Apple ProRes 422</name>
+							<appspecificdata>
+								<appname>Final Cut Pro</appname>
+								<appmanufacturer>Apple Inc.</appmanufacturer>
+								<appversion>7.0</appversion>
+								<data>
+									<qtcodec>
+										<codecname>Apple ProRes 422</codecname>
+										<codectypename>Apple ProRes 422</codectypename>
+										<codectypecode>apcn</codectypecode>
+										<codecvendorcode>appl</codecvendorcode>
+										<spatialquality>1024</spatialquality>
+										<temporalquality>0</temporalquality>
+										<keyframerate>0</keyframerate>
+										<datarate>0</datarate>
+									</qtcodec>
+								</data>
+							</appspecificdata>
+						</codec>
+						<width>3840</width>
+						<height>2160</height>
+						<anamorphic>FALSE</anamorphic>
+						<pixelaspectratio>square</pixelaspectratio>
+						<fielddominance>none</fielddominance>
+						<colordepth>24</colordepth>
+					</samplecharacteristics>
+				</format>
+				<track TL.SQTrackShy="0" TL.SQTrackExpandedHeight="25" TL.SQTrackExpanded="0" MZ.TrackTargeted="0">
+					<enabled>TRUE</enabled>
+					<locked>FALSE</locked>
+				</track>
+				<track TL.SQTrackShy="0" TL.SQTrackExpandedHeight="25" TL.SQTrackExpanded="0" MZ.TrackTargeted="1">
+					<enabled>TRUE</enabled>
+					<locked>FALSE</locked>
+				</track>
+				<track TL.SQTrackShy="0" TL.SQTrackExpandedHeight="25" TL.SQTrackExpanded="0" MZ.TrackTargeted="0">
+					<enabled>TRUE</enabled>
+					<locked>FALSE</locked>
+				</track>
+				<track TL.SQTrackShy="0" TL.SQTrackExpandedHeight="25" TL.SQTrackExpanded="0" MZ.TrackTargeted="0">
+					<enabled>TRUE</enabled>
+					<locked>FALSE</locked>
+				</track>
+			</video>
+			<audio>
+				<numOutputChannels>2</numOutputChannels>
+				<format>
+					<samplecharacteristics>
+						<depth>16</depth>
+						<samplerate>48000</samplerate>
+					</samplecharacteristics>
+				</format>
+				<outputs>
+					<group>
+						<index>1</index>
+						<numchannels>1</numchannels>
+						<downmix>0</downmix>
+						<channel>
+							<index>1</index>
+						</channel>
+					</group>
+					<group>
+						<index>2</index>
+						<numchannels>1</numchannels>
+						<downmix>0</downmix>
+						<channel>
+							<index>2</index>
+						</channel>
+					</group>
+				</outputs>
+				<track TL.SQTrackAudioKeyframeStyle="0" TL.SQTrackShy="0" TL.SQTrackExpandedHeight="25" TL.SQTrackExpanded="0" MZ.TrackTargeted="1" PannerCurrentValue="0.5" PannerIsInverted="true" PannerStartKeyframe="-91445760000000000,0.5,0,0,0,0,0,0" PannerName="Balance" currentExplodedTrackIndex="0" totalExplodedTrackCount="2" premiereTrackType="Stereo">
+					<enabled>TRUE</enabled>
+					<locked>FALSE</locked>
+					<outputchannelindex>1</outputchannelindex>
+				</track>
+				<track TL.SQTrackAudioKeyframeStyle="0" TL.SQTrackShy="0" TL.SQTrackExpandedHeight="25" TL.SQTrackExpanded="0" MZ.TrackTargeted="1" PannerCurrentValue="0.5" PannerIsInverted="true" PannerStartKeyframe="-91445760000000000,0.5,0,0,0,0,0,0" PannerName="Balance" currentExplodedTrackIndex="1" totalExplodedTrackCount="2" premiereTrackType="Stereo">
+					<enabled>TRUE</enabled>
+					<locked>FALSE</locked>
+					<outputchannelindex>2</outputchannelindex>
+				</track>
+				<track TL.SQTrackAudioKeyframeStyle="0" TL.SQTrackShy="0" TL.SQTrackExpandedHeight="25" TL.SQTrackExpanded="0" MZ.TrackTargeted="1" PannerCurrentValue="0.5" PannerIsInverted="true" PannerStartKeyframe="-91445760000000000,0.5,0,0,0,0,0,0" PannerName="Balance" currentExplodedTrackIndex="0" totalExplodedTrackCount="2" premiereTrackType="Stereo">
+					<enabled>TRUE</enabled>
+					<locked>FALSE</locked>
+					<outputchannelindex>1</outputchannelindex>
+				</track>
+				<track TL.SQTrackAudioKeyframeStyle="0" TL.SQTrackShy="0" TL.SQTrackExpandedHeight="25" TL.SQTrackExpanded="0" MZ.TrackTargeted="1" PannerCurrentValue="0.5" PannerIsInverted="true" PannerStartKeyframe="-91445760000000000,0.5,0,0,0,0,0,0" PannerName="Balance" currentExplodedTrackIndex="1" totalExplodedTrackCount="2" premiereTrackType="Stereo">
+					<enabled>TRUE</enabled>
+					<locked>FALSE</locked>
+					<outputchannelindex>2</outputchannelindex>
+				</track>
+				<track TL.SQTrackAudioKeyframeStyle="0" TL.SQTrackShy="0" TL.SQTrackExpandedHeight="25" TL.SQTrackExpanded="0" MZ.TrackTargeted="1" PannerCurrentValue="0.5" PannerIsInverted="true" PannerStartKeyframe="-91445760000000000,0.5,0,0,0,0,0,0" PannerName="Balance" currentExplodedTrackIndex="0" totalExplodedTrackCount="2" premiereTrackType="Stereo">
+					<enabled>TRUE</enabled>
+					<locked>FALSE</locked>
+					<outputchannelindex>1</outputchannelindex>
+				</track>
+				<track TL.SQTrackAudioKeyframeStyle="0" TL.SQTrackShy="0" TL.SQTrackExpandedHeight="25" TL.SQTrackExpanded="0" MZ.TrackTargeted="1" PannerCurrentValue="0.5" PannerIsInverted="true" PannerStartKeyframe="-91445760000000000,0.5,0,0,0,0,0,0" PannerName="Balance" currentExplodedTrackIndex="1" totalExplodedTrackCount="2" premiereTrackType="Stereo">
+					<enabled>TRUE</enabled>
+					<locked>FALSE</locked>
+					<outputchannelindex>2</outputchannelindex>
+				</track>
+			</audio>
+		</media>
+		<timecode>
+			<rate>
+				<timebase>30</timebase>
+				<ntsc>TRUE</ntsc>
+			</rate>
+			<string>00;00;00;00</string>
+			<frame>0</frame>
+			<displayformat>DF</displayformat>
+		</timecode>
+		<marker>
+			<comment>God maintain I and Kyle show from
+Lewistown Montana
+</comment>
+			<name>1</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>atomic Western called Bochner since 2008
+I came on starting teaching technology
+</comment>
+			<name>3</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>when I first started and now it kinda
+expanded into a few other
+</comment>
+			<name>4</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>topics I grew up in the auction business
+life my dad's an auctioneer
+</comment>
+			<name>5</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>me and my great grandfather was action
+auctioneers well im
+</comment>
+			<name>6</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>I was born into business basically is
+something that I
+</comment>
+			<name>7</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>I've always believed in something that
+I've really always in some way shape or
+</comment>
+			<name>8</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>form wanna do you
+unknown living the dream today I'm
+</comment>
+			<name>10</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>partners with my dad ensure margin
+Realty lewistown montana
+</comment>
+			<name>11</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>we are specialize in a wide range
+martian
+</comment>
+			<name>12</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>merchandise from antiques collectibles
+farm/ranch equipment
+</comment>
+			<name>13</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>to real estate and then I sell cattle
+several times a week
+</comment>
+			<name>14</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>and the rain production sale any money
+mine
+</comment>
+			<name>15</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>the auction industry is something that
+I've always believed and I think that as
+</comment>
+			<name>16</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>our chinny years is our duty to
+to train the next generation we're in
+</comment>
+			<name>18</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>this together
+got a lot of competitors this business
+</comment>
+			<name>19</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>we all do is watch years
+I also got a lot of friends and I think
+</comment>
+			<name>20</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>that's something that
+that we really bring the forefront here
+</comment>
+			<name>21</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>Westergaard functionaries
+we we are able to show students what
+</comment>
+			<name>22</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>it's like to be in this business to be
+professional
+</comment>
+			<name>23</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>and giving back to the industry
+something that
+</comment>
+			<name>24</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>did I guess I've always believed in this
+is my way up
+</comment>
+			<name>25</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>doing a small portion their introducing
+new auctioneers
+</comment>
+			<name>26</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>into this business that child's here
+the topics that are covered include have
+</comment>
+			<name>28</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>been calling
+I in technology with regard to
+</comment>
+			<name>29</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>technology in its ever-changing
+we as auctioneers need to be on the
+</comment>
+			<name>30</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>cutting edge in that I feel an offer
+that to our customers
+</comment>
+			<name>31</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>not not only the buyers but the seller's
+that we work with and I think that is
+</comment>
+			<name>32</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>the curriculum that we can give them
+here
+</comment>
+			<name>33</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>give these young auctioneers here the
+BCA will help them step right into them
+</comment>
+			<name>34</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>when they head out
+on their own and margins with that said
+</comment>
+			<name>36</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>in all the
+technology it live simulcast options and
+</comment>
+			<name>37</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>internet only options that will even
+talk about
+</comment>
+			<name>38</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>there still a big need for bid callers
+and will spend a lot of time talking
+</comment>
+			<name>39</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>about
+how to construct a chance how to build a
+</comment>
+			<name>41</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>foundation is based on clarity
+based on those numbers that we that we
+</comment>
+			<name>42</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>drill on hammer on
+when you leave here you will have the
+</comment>
+			<name>43</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>Foundation's up having a chance of a
+champion
+</comment>
+			<name>44</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>teaching here Westergaard auctioneering
+his given me an opportunity
+</comment>
+			<name>45</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>to give back to a profession that I
+believe very strongly in something like
+</comment>
+			<name>46</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>grew up and have a passion for
+and I loves bringing a new students into
+</comment>
+			<name>48</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>the auction business and helping them
+find their place in it
+</comment>
+			<name>49</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>we look around the the auction community
+we see competitor
+</comment>
+			<name>50</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>more more matter we see for years and i
+think thats
+</comment>
+			<name>51</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>the beginning along those relationships
+right here at auction school
+</comment>
+			<name>52</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>when we can
+help the young next-generation
+</comment>
+			<name>54</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>auctioneers head right
+head first in the industry Western
+</comment>
+			<name>55</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>graduate has a certain existing
+said go around the country you'll
+</comment>
+			<name>56</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>typically here
+be able to pick up where auctioneer from
+</comment>
+			<name>57</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>by the sound of their chair
+I believe that you can pick out a
+</comment>
+			<name>58</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>Western graduate
+in about any crowd they have a distinct
+</comment>
+			<name>59</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>rhythm about them
+and as sting clarity which is is one of
+</comment>
+			<name>60</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>the most important thing
+we do is on its bid callers you is
+</comment>
+			<name>61</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>convey the price they were asking for if
+they can understand
+</comment>
+			<name>62</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>I'll were on a job and I think the
+clarity and
+</comment>
+			<name>63</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>and the rhythm latest hot here is
+certainly evident
+</comment>
+			<name>64</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>in those dues to go out he's comes said
+the quality construction here
+</comment>
+			<name>66</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>Westergaard functionary in my opinion
+is second to none first of all the the
+</comment>
+			<name>67</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>instructors are all successful
+auctioneers
+</comment>
+			<name>68</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>voice specialist cells full time in the
+industry in some capacity
+</comment>
+			<name>69</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>the comparable wide spectrum of
+different segments of the industry from
+</comment>
+			<name>70</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>livestock auction years to real estate
+benefit auction
+</comment>
+			<name>71</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>specialists to personal property
+auctioneers
+</comment>
+			<name>72</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>agricultural equipment auctioneer so a
+student here really gets
+</comment>
+			<name>73</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>to see everything that this auction
+industry
+</comment>
+			<name>74</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>has ended
+my favorite part about being an
+</comment>
+			<name>76</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>auctioneer's is the business
+everything that we teach your with
+</comment>
+			<name>77</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>regard to communication dealing with
+people in
+</comment>
+			<name>78</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>and of course the bid call it's all my
+favorite there's nothing to compare to
+</comment>
+			<name>79</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>stand and sit behind the microphone
+working on behalf of the Seller selling
+</comment>
+			<name>81</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>their assets and
+and rush that comes from that and
+</comment>
+			<name>82</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>the ability to help people naturally
+what I thrive on old
+</comment>
+			<name>83</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>the limit a class size here allows me
+and the other instructors
+</comment>
+			<name>84</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>time for individual training everybody's
+got different needs
+</comment>
+			<name>85</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>with regard to the bid call with regard
+to the business everybody is in a
+</comment>
+			<name>86</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>different spot
+and with the smaller class size it
+</comment>
+			<name>88</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>allows us to
+assist each one of those students and
+</comment>
+			<name>89</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>get to where they need to go
+every day we had a new level with
+</comment>
+			<name>90</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>technology and
+in SD the influence that has had on the
+</comment>
+			<name>91</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>auction industry is no different as
+having a lot of other industries
+</comment>
+			<name>92</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>but this industry is headed up and
+there's a lot of opportunities that have
+</comment>
+			<name>93</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>opened up to auctioneers in the last
+several years that weren't there years
+</comment>
+			<name>94</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>ago
+internet only auctions different ways to
+</comment>
+			<name>96</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>market our product and our services
+on the Internet a this is a is a great
+</comment>
+			<name>97</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>time to get the business because
+right now there is so much more in our
+</comment>
+			<name>98</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>fingertips than ever before
+there still a need for good
+</comment>
+			<name>99</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>bit taller but there's a lot of other
+things that can be incorporated into an
+</comment>
+			<name>100</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>auction business the killer in here
+I found my chance from the foundation
+</comment>
+			<name>102</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>that's based on your WC a and then
+listening to a lot of other auctioneers
+</comment>
+			<name>103</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>most on WC graduates and everybody all
+know
+</comment>
+			<name>104</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>everybody will develop their own style
+as time goes on
+</comment>
+			<name>105</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>and in that style really is starting
+right here an auction school
+</comment>
+			<name>106</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>when you go out into the business you
+start conducting real live auctions
+</comment>
+			<name>107</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>that style only role in only develop
+over time
+</comment>
+			<name>108</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<marker>
+			<comment>and eventually you'll be a master 0
+me
+</comment>
+			<name>110</name>
+			<in>NaN</in>
+			<out>NaN</out>
+		</marker>
+		<labels>
+			<label2>Forest</label2>
+		</labels>
+	</sequence>
+</xmeml>
