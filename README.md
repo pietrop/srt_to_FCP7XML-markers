@@ -147,8 +147,13 @@ Minimal test coverage for maker class and timecode to frames converter module us
 - `srt_parser_composer`,[npm](https://www.npmjs.com/package/srt_parser_composer), [github](https://github.com/pietrop/srtParserComposer)
 
 
-## Other background 
+## Other good to know  
 
 - [JS ES6 Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
 - [srt file](https://en.wikipedia.org/wiki/SubRip) (in particular note that the timecode is in `hours:minutes:seconds,milliseconds`)
 - [Overview of the Final Cut Pro XML Interchange Format](https://documentation.apple.com/en/finalcutpro/usermanual/index.html#chapter=97%26section=3%26tasks=true)
+
+
+## Contributors 
+
+- [Pietro](http://github.com/pietrop)

@@ -8,6 +8,7 @@ const convertTimeFrames = require('./lib/timecodes_converter/index.js').convertT
 
 var xmlFCP7TemplateFilename = './FCP7XMLTemplate/template.xml';
 
+
 function convertSrtToFCP7xml(srtFile, xmlOutputFileName){
 
 
@@ -26,7 +27,7 @@ function convertSrtToFCP7xml(srtFile, xmlOutputFileName){
 	 *  https://www.npmjs.com/package/srt_parser_composer#example-json-output
 	 */
 	
-
+	// check if it's a valid file path for srtFile or the srt file content as a string 
 	if(isValid(srtFile)){
 		srtParser.parseSrtFileToJson(srtFile, function(srtJson){
 		// //  console.log(JSON.stringify(srtJson, null, 2));
@@ -50,9 +51,6 @@ function convertSrtToFCP7xml(srtFile, xmlOutputFileName){
 		  });
 		});
 	}
-
-
-	
 
 	/**
 	 * Convert JSON representation of FCP7 XML to XML
