@@ -19,9 +19,6 @@ function convertSrtToFCP7xml(options, cb){
 		fps = 30;
 	} 
 
-
-
-
 	// add logic that if it is srtFile, eg detect path, then opens file, if it is string then works with the content?
 
 	/**
