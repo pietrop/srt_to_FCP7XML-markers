@@ -133,6 +133,10 @@ Where the `in` and `out` are specified in frames. (`in` is also reserved word in
 
 For full xml, to see them in context, see folder, [`sampleXMLs/template.xml`](./FCP7XMLTemplate/template.xml). 
 
+### I am not a developer how can use this?
+
+There is a packaged version, as a Mac os x desktop app, that uses this module behind the hood [here](https://github.com/pietrop/srt_to_FCP7XML-markers_electron)
+
 
 <!-- 
 
