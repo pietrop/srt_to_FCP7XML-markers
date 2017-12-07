@@ -13,6 +13,14 @@ var xmlFCP7TemplateFilename = path.join(__dirname,'FCP7XMLTemplate', 'template.x
 function convertSrtToFCP7xml(options, cb){
 	var srtFile = options.srt;
 	var xmlOutputFileName = options.xmlOutputFileName;
+	var fps = options.fps;
+
+	if(fps === undefined){
+		fps = 30;
+	} 
+
+
+
 
 	// add logic that if it is srtFile, eg detect path, then opens file, if it is string then works with the content?
 
@@ -24,6 +32,10 @@ function convertSrtToFCP7xml(options, cb){
 	// console.log(JSON.stringify(doc, null, 2));
 	// //reset array of FCP7 XML "template"
 	doc.sequence.marker = [];
+
+
+	// change sequence so that timebase is also set to fps. 
+	
 	/**
 	 *  Open SRT File using srt parser composer module, this returns a srt-json data structure 
 	 *  https://www.npmjs.com/package/srt_parser_composer#example-json-output
@@ -35,7 +47,7 @@ function convertSrtToFCP7xml(options, cb){
 		// //  console.log(JSON.stringify(srtJson, null, 2));
 		  srtJson.forEach((srtJsonLine)=>{
 		  	// create marker for each line 
-		    var markerTmp = new Marker(srtJsonLine.text, srtJsonLine.id, convertTimeFrames(srtJsonLine.startTime),  convertTimeFrames(srtJsonLine.endTime));
+		    var markerTmp = new Marker(srtJsonLine.text, srtJsonLine.id, convertTimeFrames(srtJsonLine.startTime, fps),  convertTimeFrames(srtJsonLine.endTime, fps));
 		    // add to FCP7 XML - Json data structure under marker's section. 
 		    doc.sequence.marker.push(markerTmp.returnJSON());
 		  });

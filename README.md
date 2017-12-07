@@ -22,6 +22,8 @@ For maximum flexibility, the following scenarios are covered:
 
 There is also an optional callback if you want to be notified when it's done.
 
+by default, fps is set as 30, otherwise you can add an optional attribute to specify if different.
+
 ### srt file input -> xml file output 
 
 File to file, specifying an srt file path as an input, and an xml file path for where to save the desired output. 
