@@ -2,6 +2,14 @@
 
 A node module to convert an srt, subtitle file, into adobe premiere markers, to make it easier to search text in video within premiere. 
 
+## Installation 
+
+
+To add the module to your node project, for now you can install it like so, when it gets more feedback, I might add it to npm. 
+
+```
+npm install  https://github.com/pietrop/srt_to_FCP7XML-markers.git -save
+```
 
 ## Usage
 
@@ -15,6 +23,8 @@ For maximum flexibility, the following scenarios are covered:
 ### srt file input -> xml file output 
 
 File to file, specifying an srt file path as an input, and an xml file path for where to save the desired output. 
+
+<!-- TODO: check on require index, here and other examples.  -->
 
 ```js 
 const convertSrtToFCP7xml = require('./index.js').convertSrtToFCP7xml;
@@ -99,7 +109,7 @@ How the module works at a high level overview.
 ### Why `FCP7 XML`?
 FCP7 XML because it is a format supported by premire, that allows to define markers, and imported into Adobe Premiere. As Premiere can export markers as a CSV file but does not seem to have an option to import them `(?)`.
 
-### What to markers look like in `FCP7 XML`?
+### What's does the marker attribute look like`FCP7 XML`?
 
 See extract below
 
@@ -112,26 +122,20 @@ See extract below
 </marker>
 ```
 
-Where the in and out are specified in frames.
+Where the `in` and `out` are specified in frames. (`in` is also reserved word in javascript so refered to `in` and `out` as `startTime` and `endTime`).
 
-For full xml, to see them in context, see folder, `sampleXMLs`. 
+For full xml, to see them in context, see folder, [`sampleXMLs/template.xml`](./FCP7XMLTemplate/template.xml). 
 
-eg `4356` is `00:02:25:06` at `30` fps. See [this convert to help getting your head around it](http://www.zapstudio.net/framecalc/).
 
+<!-- 
 
 ### What other options are there to do this?
 
 ...
 
-<!-- .... -->
+ -->
 
-
-### How do I use this?
-
-Terminal command, but could make a GUI with electron if there's enough interest around it...
-
-
-## Test
+## Tests
 
 Minimal test coverage for maker class and timecode to frames converter module using [https://facebook.github.io/jest/](`jest`).
 
