@@ -1,6 +1,6 @@
 # README `srt to -> FCP XML Markers`
 
-A node module to convert an srt, subtitle file, into premiere markers, to make it easier to search text in video within premiere. 
+A node module to convert an srt, subtitle file, into adobe premiere markers, to make it easier to search text in video within premiere. 
 
 
 ## Usage
