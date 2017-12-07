@@ -20,6 +20,8 @@ For maximum flexibility, the following scenarios are covered:
 - srt file content  -> xml file content
 - srt file content  -> xml file  
 
+There is also an optional callback if you want to be notified when it's done.
+
 ### srt file input -> xml file output 
 
 File to file, specifying an srt file path as an input, and an xml file path for where to save the desired output. 
@@ -32,7 +34,7 @@ const convertSrtToFCP7xml = require('./index.js').convertSrtToFCP7xml;
 var srtSampleFileName = './sampleSrts/Kyle_captions.srt';
 var xmlSampleOutputFileName = './sampleOutputFCP7XMLs/sampleOutput.xml';
 
-convertSrtToFCP7xml(srtSampleFileName, xmlSampleOutputFileName);
+convertSrtToFCP7xml({srt: srtSampleFileName, xmlOutputFileName:  xmlSampleOutputFileName});
 ```
 
 See [`sampleOutputFCP7XMLs`](./sampleOutputFCP7XMLs) for example of the FCP7 XML output or [`FCP7XMLTemplate`](./FCP7XMLTemplate) for template.
@@ -45,7 +47,7 @@ Also see[`sampleSrts`]('./sampleSrts') for an example `srt` file.
 ```js
 const convertSrtToFCP7xml = require('./index.js').convertSrtToFCP7xml;
 var srtSampleFileName = './sampleSrts/Kyle_captions.srt';
-var xmlFileContent = convertSrtToFCP7xml(srtSampleFileName);
+var xmlFileContent = convertSrtToFCP7xml({srt: srtSampleFileName});
 ```
 
 ## srt file content  -> xml file content 
@@ -57,8 +59,11 @@ const convertSrtToFCP7xml = require('./index.js').convertSrtToFCP7xml;
 var srtSampleFileName = './sampleSrts/Kyle_captions.srt';
 var srtSampleFileConent =  fs.readFileSync(srtSampleFileName).toString();
 
-var xmlFileContent = convertSrtToFCP7xml(srtSampleFileConent);
+var xmlFileContent = convertSrtToFCP7xml({srt: srtSampleFileConent});
 ```
+
+
+
 
 
 ### srt file content  -> xml file  
@@ -71,7 +76,7 @@ var xmlSampleOutputFileName = './sampleOutputFCP7XMLs/sampleOutput.xml';
 var srtSampleFileName = './sampleSrts/Kyle_captions.srt';
 var srtSampleFileConent =  fs.readFileSync(srtSampleFileName).toString();
 
-var xmlFileContent = convertSrtToFCP7xml(srtSampleFileConent, xmlSampleOutputFileName);
+var xmlFileContent = convertSrtToFCP7xml({srt: srtSampleFileConent, xmlOutputFileName: xmlSampleOutputFileName});
 ```
 
 

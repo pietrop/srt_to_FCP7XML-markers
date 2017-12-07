@@ -12,11 +12,11 @@ var xmlOutputSampleContent = fs.readFileSync(xmlSampleOutputFileName).toString()
 var srtSampleFileConent =  fs.readFileSync(srtSampleFileName).toString();
 
 test('testing main convertSrtToFCP7xml with srt file name, expectign string content of xml', () => {
-	expect(convertSrtToFCP7xml(srtSampleFileName)).toEqual(xmlOutputSampleContent);
+	expect(convertSrtToFCP7xml({srt: srtSampleFileName})).toEqual(xmlOutputSampleContent);
 });
 
 
 
 test('testing main convertSrtToFCP7xml with srt file content as string, expectign string content of xml', () => {
-	expect(convertSrtToFCP7xml(srtSampleFileConent)).toEqual(xmlOutputSampleContent);
+	expect(convertSrtToFCP7xml({srt: srtSampleFileConent})).toEqual(xmlOutputSampleContent);
 });

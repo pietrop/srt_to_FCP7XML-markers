@@ -1,16 +1,18 @@
 'use strict';
 const fs  = require('fs');
+const path=require('path');
 const XML = require('pixl-xml');
 const isValid = require('is-valid-path');
 const srtParser  = require('srt_parser_composer').parser;
 const Marker = require('./lib/marker/index.js');
 const convertTimeFrames = require('./lib/timecodes_converter/index.js').convertTimeFrames;
 
-var xmlFCP7TemplateFilename = './FCP7XMLTemplate/template.xml';
+var xmlFCP7TemplateFilename = path.join(__dirname,'FCP7XMLTemplate', 'template.xml'); 
 
 
-function convertSrtToFCP7xml(srtFile, xmlOutputFileName){
-
+function convertSrtToFCP7xml(options, cb){
+	var srtFile = options.srt;
+	var xmlOutputFileName = options.xmlOutputFileName;
 
 	// add logic that if it is srtFile, eg detect path, then opens file, if it is string then works with the content?
 
@@ -63,10 +65,10 @@ function convertSrtToFCP7xml(srtFile, xmlOutputFileName){
 	 * as file if destination specified, as content string if not.
 	 */
 	if(xmlOutputFileName !== undefined){
+		if(cb){cb(xmlOutputFileName)}else{return xmlOutputFileName}
 		fs.writeFileSync(xmlOutputFileName, xmlString);
 	}else{
-		// console.log(xmlString)
-		return xmlString; 
+		if(cb){cb(xmlString)}else{return xmlString};
 	}
 }
 

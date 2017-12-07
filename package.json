@@ -1,7 +1,7 @@
 {
   "name": "srt_to_fcp7xml-markers",
   "version": "1.0.0",
-  "description": "A script to convert an srt, subtitle file, into premiere markers, to make it easier to search text in video within premiere.",
+  "description": "A Node module to convert an srt, subtitle file, into adobe premiere markers, to make it easier to search text in video within premiere.",
   "main": "index.js",
   "scripts": {
     "test": "jest",
